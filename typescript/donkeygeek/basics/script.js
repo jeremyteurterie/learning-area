@@ -68,3 +68,9 @@ member.level[0] = 'moderator';
 console.log(member.level);
 member.level.push('Salut');
 console.log(member.level);
+// object
+var car = {
+    color: 'red',
+    date: 2020,
+    speed: 500,
+};

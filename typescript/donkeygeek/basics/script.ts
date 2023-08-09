@@ -89,3 +89,14 @@ console.log(member.level);
 
 member.level.push('Salut');
 console.log(member.level);
+
+// object
+let car: {
+  color: string;
+  date: number;
+  speed: number;
+} = {
+  color: 'red',
+  date: 2020,
+  speed: 500,
+};
