@@ -32,3 +32,6 @@ var sum = function (val1, val2) {
     return val1 + val2;
 };
 sum(20, 15);
+var pseudo = 'Superman';
+var total = 200;
+var isLoading = false;

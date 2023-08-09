@@ -40,3 +40,7 @@ const sum = (val1: number, val2: number) => {
 };
 
 sum(20, 15);
+
+let pseudo: string = 'Superman';
+let total: number = 200;
+let isLoading: boolean = false;
