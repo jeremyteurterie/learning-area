@@ -20,14 +20,10 @@ var isLogging = true;
 lastName = 'Dora';
 age = 25;
 isLogging = false;
-lastName = 23;
-age = true;
-isLogging = 'Hello';
 // type assignation
 var alien = 'Roger';
 var width;
 width = 20;
-width = true;
 var sum = function (val1, val2) {
     return val1 + val2;
 };

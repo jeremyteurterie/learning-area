@@ -25,15 +25,10 @@ lastName = 'Dora';
 age = 25;
 isLogging = false;
 
-lastName = 23;
-age = true;
-isLogging = 'Hello';
-
 // type assignation
 let alien: string = 'Roger';
 let width: number;
 width = 20;
-width = true;
 
 const sum = (val1: number, val2: number) => {
   return val1 + val2;
