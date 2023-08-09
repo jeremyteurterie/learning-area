@@ -35,3 +35,21 @@ sum(20, 15);
 var pseudo = 'Superman';
 var total = 200;
 var isLoading = false;
+var colors = ['red', 'blue', 'green', 'orange'];
+var numbers = [1, 5, 7.5, 0];
+numbers.push(20);
+console.log(numbers);
+var values;
+values = [
+    'Bonjour',
+    true,
+    500,
+    {
+        name: 'Jeremy Teurterie',
+        age: 23,
+        member: false,
+        hobbies: ['video games', 'football'],
+    },
+];
+var strNum = ['red', 9, false];
+strNum.push('salut');

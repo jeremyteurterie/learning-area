@@ -44,3 +44,26 @@ sum(20, 15);
 let pseudo: string = 'Superman';
 let total: number = 200;
 let isLoading: boolean = false;
+
+let colors: Array<string> = ['red', 'blue', 'green', 'orange'];
+let numbers: number[] = [1, 5, 7.5, 0];
+
+numbers.push(20);
+
+console.log(numbers);
+
+let values: any[];
+values = [
+  'Bonjour',
+  true,
+  500,
+  {
+    name: 'Jeremy Teurterie',
+    age: 23,
+    member: false,
+    hobbies: ['video games', 'football'],
+  },
+];
+
+let strNum = ['red', 9, false];
+strNum.push('salut');
