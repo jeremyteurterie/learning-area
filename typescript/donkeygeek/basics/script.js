@@ -1,15 +1,9 @@
-var form = document.getElementById('signupForm');
-var firstName = document.getElementById('firstName');
-var age = document.getElementById('age');
-function gift(age) {
-    return age + 3;
-}
-form.addEventListener('submit', function (e) {
-    e.preventDefault();
-    if (+age.value < 18) {
-        console.log('Inscription refusee');
-    }
-    else {
-        console.log("Bienvenue ".concat(firstName.value, ". Vous avez ").concat(age.value, ". Vous aurez droit a un cadeau quand vous aurez ").concat(gift(+age.value)));
-    }
-});
+// let + const
+// const
+var pi = Math.PI;
+var API_KEY = 'iwdfnjwnwnfr';
+console.log(pi);
+// let
+var number = 20;
+number = 21;
+console.log(number);

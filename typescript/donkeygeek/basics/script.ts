@@ -1,21 +1,11 @@
-const form = document.getElementById('signupForm');
-const firstName = document.getElementById('firstName') as HTMLInputElement;
-const age = document.getElementById('age') as HTMLInputElement;
+// let + const
 
-function gift(age: number) {
-  return age + 3;
-}
+// const
+const pi = Math.PI;
+const API_KEY = 'iwdfnjwnwnfr';
+console.log(pi);
 
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-
-  if (+age.value < 18) {
-    console.log('Inscription refusee');
-  } else {
-    console.log(
-      `Bienvenue ${firstName.value}. Vous avez ${
-        age.value
-      }. Vous aurez droit a un cadeau quand vous aurez ${gift(+age.value)}`
-    );
-  }
-});
+// let
+let number = 20;
+number = 21;
+console.log(number);
