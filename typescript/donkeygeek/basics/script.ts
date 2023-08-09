@@ -67,3 +67,25 @@ values = [
 
 let strNum = ['red', 9, false];
 strNum.push('salut');
+
+// tuple
+let x: [string, number];
+x = ['Hello', 20];
+// x = ['Hello', 20, 'Bonjour'];
+x.push('Bonjour');
+console.log(x);
+
+console.log(x[1].toString);
+console.log(typeof x[1]);
+
+const member: {
+  level: [string, number];
+} = {
+  level: ['admin', 1],
+};
+
+member.level[0] = 'moderator';
+console.log(member.level);
+
+member.level.push('Salut');
+console.log(member.level);

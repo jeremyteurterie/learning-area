@@ -53,3 +53,18 @@ values = [
 ];
 var strNum = ['red', 9, false];
 strNum.push('salut');
+// tuple
+var x;
+x = ['Hello', 20];
+// x = ['Hello', 20, 'Bonjour'];
+x.push('Bonjour');
+console.log(x);
+console.log(x[1].toString);
+console.log(typeof x[1]);
+var member = {
+    level: ['admin', 1],
+};
+member.level[0] = 'moderator';
+console.log(member.level);
+member.level.push('Salut');
+console.log(member.level);
