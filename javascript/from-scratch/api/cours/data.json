@@ -1,0 +1,67 @@
+{
+    "dendron.enableSelfContainedVaultWorkspace": true,
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.enableSmartCommit": true,
+    "prettier.singleQuote": true,
+    "synthwave84blues.brightness": 0,
+    "editor.fontWeight": "100",
+    "editor.fontLigatures": true,
+    "[html]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[scss]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[css]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.formatOnSave": true,
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "editor.language.brackets": [],
+    "editor.guides.bracketPairs": true,
+    "editor.language.colorizedBracketPairs": [
+      ["[", "]"],
+      ["(", ")"],
+      ["{", "}"]
+    ],
+    "workbench.colorCustomizations": {
+      "editorBracketHighlight.foreground1": "#fac928",
+      "editorBracketHighlight.foreground2": "#696cfc",
+      "editorBracketHighlight.foreground3": "#cde4ff",
+      "editorBracketHighlight.foreground4": "#00e74d",
+      "editorBracketHighlight.foreground5": "#fe7d2d",
+      "editorBracketHighlight.foreground6": "#19f9d8",
+      "editorBracketPairGuide.background1": "#fac9289E",
+      "editorBracketPairGuide.background2": "#696cfc9E",
+      "editorBracketPairGuide.background3": "#cde4ff9E",
+      "editorBracketPairGuide.background4": "#00e74d9E",
+      "editorBracketPairGuide.background5": "#fe7d2d9E",
+      "editorBracketPairGuide.background6": "#19f9d89E",
+      "editorBracketPairGuide.activeBackground1": "#FAC9289E",
+      "editorBracketPairGuide.activeBackground2": "#696CFC9E",
+      "editorBracketPairGuide.activeBackground3": "#CDE4FF9E",
+      "editorBracketPairGuide.activeBackground4": "#00E7499E",
+      "editorBracketPairGuide.activeBackground5": "#FE7D2D9E",
+      "editorBracketPairGuide.activeBackground6": "#19F9D89E"
+    },
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "editor.fontVariations": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "settingsSync.ignoredSettings": [
+    
+    ],
+    "editor.fontSize": 13,
+    "editor.fontFamily": "Fira Code iScript, Menlo, Monaco, 'Courier New', monospace",
+    "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "git.decorations.enabled": false
+  }
+  
